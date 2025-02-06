@@ -27,11 +27,11 @@ LeetCode Complexity Analyzer is a Chrome extension that helps you analyze the ti
 1. Open `popup.js` in a text editor
 2. Locate the following line:
    ```js
-   const GEMINI_API_KEY = 'AIzaSyDd4HZP1LCLiMvzRooborJbecaA8N66pyw';
+   const GEMINI_API_KEY = 'YOUR_API_KEY_HERE';
    ```
 3. Replace it with your API key:
    ```js
-   const GEMINI_API_KEY = 'YOUR_API_KEY_HERE';
+   YOUR_API_KEY_HERE = 'your gemini api key should be pasted';
    ```
 4. Save the file
 
