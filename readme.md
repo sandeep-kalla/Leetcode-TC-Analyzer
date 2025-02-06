@@ -115,7 +115,7 @@ If you find this extension helpful in your LeetCode journey, consider showing yo
 
 Your star helps make this project more visible and encourages continued development!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sandeep-kalla/Leetcode-TC-Analyzer&type=Date)](https://star-history.com/sandeep-kalla/Leetcode-TC-Analyzer&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=sandeep-kalla/Leetcode-TC-Analyser&type=Date)](https://star-history.com/#sandeep-kalla/Leetcode-TC-Analyser&Date)
 
 </div>
 
