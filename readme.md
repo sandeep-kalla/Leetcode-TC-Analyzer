@@ -1,6 +1,6 @@
 # LeetCode Complexity Analyzer
 
-![LeetCode Complexity Analyzer](icons/logo.png)
+![LeetCode Complexity Analyzer](icons/logo128.png)
 
 LeetCode Complexity Analyzer is a Chrome extension that helps you analyze the time and space complexity of your LeetCode solutions instantly.
 
