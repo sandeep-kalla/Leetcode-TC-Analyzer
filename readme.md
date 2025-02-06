@@ -1,116 +1,134 @@
-# LeetCode Complexity Analyzer
+<div align="center">
 
-![LeetCode Complexity Analyzer](icons/icon128.png)
+# 🔍 LeetCode Complexity Analyzer
 
-LeetCode Complexity Analyzer is a Chrome extension that helps you analyze the time and space complexity of your LeetCode solutions instantly.
+### Instantly analyze the time and space complexity of your LeetCode solutions
 
-## 🚀 Features
+[![Chrome Extension](https://img.shields.io/badge/Platform-Chrome-blue.svg)](https://chrome.google.com/)
+[![Gemini API](https://img.shields.io/badge/Powered%20by-Google%20Gemini-orange.svg)](https://makersuite.google.com/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/leetcode-complexity-analyzer?style=social)](https://github.com/yourusername/leetcode-complexity-analyzer/stargazers)
 
-- 📊 Analyzes time and space complexity of LeetCode solutions
-- 🔍 Uses Google Gemini API for accurate predictions
-- 🖥️ Simple and intuitive UI
-- 🔧 Easy installation and configuration
+[Features](#-key-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Support](#-support)
 
----
+</div>
 
-## 📌 Installation Guide
+## ✨ Key Features
 
-### 1️⃣ Get the Gemini API Key
+- **Real-time Analysis**: Get instant complexity insights for your solutions
+- **AI-Powered**: Leverages Google Gemini API for accurate predictions
+- **Intuitive Interface**: Clean, modern UI for seamless user experience
+- **Developer Friendly**: Easy setup and configuration process
 
-1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Sign in with your Google account
-3. Click **Create API Key**
-4. Copy your new API key
+## 🚀 Installation
 
-### 2️⃣ Configure the Extension
+### Step 1: Configure Gemini API
 
-1. Open `popup.js` in a text editor
-2. Locate the following line:
-   ```js
-   const GEMINI_API_KEY = 'YOUR_API_KEY_HERE';
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Create a new API key
+3. Open `popup.js` and replace the API key:
+   ```javascript
+   const GEMINI_API_KEY = 'your_api_key_here';
    ```
-3. Replace it with your API key:
-   ```js
-   YOUR_API_KEY_HERE = 'your gemini api key should be pasted';
-   ```
-4. Save the file
 
-### 3️⃣ Install in Chrome
+### Step 2: Install Extension
 
-1. Open **Google Chrome**
-2. Go to `chrome://extensions/`
-3. Enable **Developer mode** (top-right corner)
-4. Click **Load unpacked**
-5. Select the folder containing the extension files
+```bash
+1. Navigate to chrome://extensions
+2. Enable Developer Mode
+3. Click "Load unpacked"
+4. Select extension directory
+```
 
-### 4️⃣ Using the Extension
+## 🎯 Usage
 
-1. Open any **LeetCode problem page**
-2. Write your solution in the code editor
-3. Click the **extension icon** in the Chrome toolbar
-4. Click **Analyze Code**
-5. View the **time and space complexity analysis**
-
----
+1. Navigate to any LeetCode problem
+2. Write your solution
+3. Click the extension icon
+4. Hit "Analyze Code"
+5. View complexity breakdown
 
 ## 📸 Screenshots
 
-Here are some screenshots showcasing the extension in action:
+<div align="center">
 
-![Extension Screenshot 1](screenshots/s1.png)
-*Main Popup*
+### Main Interface
+![Main Interface](screenshots/s1.png)
 
-![Extension Screenshot 2](screenshots/s2.png)
-*Analyzing a LeetCode solution*
+### Analysis in Action
+![Analysis Process](screenshots/s2.png)
 
-![Extension Screenshot 3](screenshots/s3.png)
-*Displaying complexity results*
+### Results View
+![Complexity Results](screenshots/s3.png)
 
----
+</div>
 
-## 🔧 Troubleshooting
+## 🛠️ Technical Details
 
-- 🔄 **Refresh** the LeetCode page if the extension doesn’t work
-- 🔑 Ensure your **API key** is entered correctly
-- ✅ Check that you are on a **LeetCode problem page**
-- 🌐 Ensure you have an **active internet connection**
-
-## ⚠️ Rate Limits
-
-- **Free tier** allows **60 requests per minute**
-- Check [Google AI Studio](https://makersuite.google.com/app/apikey) for quota limits
-
----
-
-## 📂 Files Included
-
+### Project Structure
 ```
-📂 LeetCode-Complexity-Analyzer
-├── manifest.json
-├── popup.html
-├── popup.js
-├── content.js
-├── styles.css
-├── Chart.js
-└── icons/  # Folder containing extension icons
+leetcode-complexity-analyzer/
+├── manifest.json      # Extension configuration
+├── popup.html        # UI layout
+├── popup.js         # Core functionality
+├── content.js       # Page interaction
+├── styles.css       # UI styling
+├── Chart.js        # Visualization
+└── icons/          # Extension assets
 ```
 
+### Rate Limits
+| Tier | Requests/Minute | Notes |
+|------|----------------|-------|
+| Free | 60 | Suitable for most users |
+| Pro  | Unlimited | Available on request |
+
+## 💡 Troubleshooting Guide
+
+### Common Issues
+- **Extension not responding?** Refresh the LeetCode page
+- **Analysis failed?** Verify API key and internet connection
+- **UI not loading?** Clear browser cache and reload
+
+### Quick Fixes
+1. Confirm you're on a LeetCode problem page
+2. Verify API key configuration
+3. Check console for error messages
+4. Reload extension if necessary
+
+## 🤝 Support
+
+Need help? Here's what to do:
+
+1. Check the [troubleshooting guide](#-troubleshooting-guide)
+2. Review your configuration
+3. Clear browser cache
+4. Reinstall if needed
+
+## ⭐ Support the Project
+
+If you find this extension helpful in your LeetCode journey, consider showing your support:
+
+<div align="center">
+
+### ⭐ Star this Repository ⭐
+
+Your star helps make this project more visible and encourages continued development!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sandeep-kalla/Leetcode-TC-Analyzer&type=Date)](https://star-history.com/sandeep-kalla/Leetcode-TC-Analyzer&Date)
+
+</div>
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 
-## ❓ Need Help?
+<div align="center">
 
-If you encounter issues:
+### Made with ❤️ for LeetCode enthusiasts
 
-1. Ensure all files are in the **correct location**
-2. Verify your **API key** is working
-3. Try **disabling and re-enabling** the extension
-4. **Clear your browser cache** and reload the extension
+[Report Bug](https://github.com/sandeep-kalla/Leetcode-TC-Analyzer/issues) • [Request Feature](https://github.com/sandeep-kalla/Leetcode-TC-Analyzer/issues)
 
----
-
-## 🎉 Enjoy Using LeetCode Complexity Analyzer!
-
-If you like this extension, consider giving it a ⭐ on GitHub!
-
-Happy coding! 🚀
-
+</div>
