@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyDd4HZP1LCLiMvzRooborJbecaA8N66pyw';
+const GEMINI_API_KEY = 'YOUR_API_KEY_HERE';
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 async function analyzeComplexity(code, language) {
